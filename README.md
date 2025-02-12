@@ -9,7 +9,6 @@ Este projeto é uma implementação do clássico jogo Snake com uma inteligênci
 O jogo Snake tradicional foi aprimorado com uma IA que toma decisões baseadas em:
 - **Algoritmo A*:** Para encontrar o caminho mais curto até a comida.
 - **Lógica de Fallback:** Quando não há caminho disponível, a cobra se move de forma inteligente para evitar colisões.
-- **Componentes Reutilizáveis:** Uma biblioteca de mais de 100 componentes em Angular foi utilizada para criar interfaces consistentes e eficientes.
 
 ---
 
