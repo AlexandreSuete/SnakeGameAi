@@ -231,14 +231,15 @@ class Cell:
         )
         pygame.draw.rect(window, WHITE, inner_rect)
         mid_point = (self.x * CELL_SIZE + CELL_SIZE // 2, self.y * CELL_SIZE + CELL_SIZE // 2)
-        if self.up:
-            pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] - 3, mid_point[1] + 3), (mid_point[0] + 3, mid_point[1] + 3)])
-        if self.down:
-            pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] - 3, mid_point[1] - 3), (mid_point[0] + 3, mid_point[1] - 3)])
-        if self.left:
-            pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] + 3, mid_point[1] - 3), (mid_point[0] + 3, mid_point[1] + 3)])
-        if self.right:
-            pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] - 3, mid_point[1] - 3), (mid_point[0] - 3, mid_point[1] + 3)])
+        # Descomente este código para ver as direções possíveis de cada célula
+        # if self.up:
+        #     pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] - 3, mid_point[1] + 3), (mid_point[0] + 3, mid_point[1] + 3)])
+        # if self.down:
+        #     pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] - 3, mid_point[1] - 3), (mid_point[0] + 3, mid_point[1] - 3)])
+        # if self.left:
+        #     pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] + 3, mid_point[1] - 3), (mid_point[0] + 3, mid_point[1] + 3)])
+        # if self.right:
+        #     pygame.draw.polygon(window, RED, [mid_point, (mid_point[0] - 3, mid_point[1] - 3), (mid_point[0] - 3, mid_point[1] + 3)])
 
 # Função para desenhar o grid
 def draw_grid():
