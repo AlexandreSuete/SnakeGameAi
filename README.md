@@ -1,5 +1,3 @@
----
-
 # 🐍 Snake Game AI
 
 Este projeto é uma implementação do clássico jogo Snake com uma inteligência artificial (IA) que joga de forma autônoma. A IA utiliza o algoritmo A* para encontrar o caminho até a comida, garantindo um comportamento inteligente e desafiador.
