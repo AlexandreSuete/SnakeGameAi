@@ -66,7 +66,6 @@ O algoritmo A* é utilizado para encontrar o caminho mais curto entre a cobra e 
 
 ### Estrutura do Projeto
 - **Grid Dinâmico:** O grid é gerado dinamicamente, permitindo que a cobra se mova em um ambiente controlado.
-- **Componentes Reutilizáveis:** A biblioteca de componentes em Angular foi utilizada para garantir consistência e eficiência no desenvolvimento.
 
 ---
 
